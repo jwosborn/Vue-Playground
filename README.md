@@ -1,4 +1,7 @@
-# lara-proj
+## Vue-Playground is a playground for Jeremy Osborn to code along with Laracasts as well as to experiment with the language. It was created using the boilerplate Vue.js in the CLI. 
+
+
+### It will likely take many shapes over time as I experiment with different data flows and functions within Vue.js as I prepare to build a blog site using the framework.
 
 ## Project setup
 ```
@@ -13,16 +16,6 @@ yarn run serve
 ### Compiles and minifies for production
 ```
 yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
 ```
 
 ### Customize configuration
