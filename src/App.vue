@@ -3,8 +3,8 @@
 
 <template>
   <div id="app">
+    <Nav/>
     <HelloWorld msg="Hello, W0rld!" />
-    <ItWorks/>
   </div>
 </template>
 
@@ -13,12 +13,12 @@
 export default {
   name: 'app',
   components: {
-    ItWorks,
-    HelloWorld
+    HelloWorld,
+    Nav
   }
 }
-import ItWorks from './ItWorks.vue';
 import HelloWorld from './components/HelloWorld.vue';
+import Nav from './components/Nav.vue';
 </script>
 
 <style>
@@ -27,6 +27,7 @@ import HelloWorld from './components/HelloWorld.vue';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  background-color: #DDD;
   color: #2c3e50;
   margin-top: 60px;
 }
