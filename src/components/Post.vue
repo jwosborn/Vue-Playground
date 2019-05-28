@@ -25,5 +25,7 @@ export default {
     }
     p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.5em; 
     }
+
 </style>
