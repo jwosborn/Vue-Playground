@@ -20,7 +20,6 @@ export default {
 
 #nav-bar {
     scroll-behavior: smooth;
-    padding-bottom: 1.5em; 
     margin-right: -60vw; 
 }
 .nav-link {
