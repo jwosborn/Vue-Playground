@@ -1,9 +1,7 @@
 <template>
        <nav id="nav-bar">
-           <a href='#' class="nav-link"> Home</a>
-           <a href='#' class="nav-link" >Contact</a>
-           <a href='#' class="nav-link" >Sign In</a>
-           <a href='#' class="nav-link" >Sign Up</a>
+           <a href='#' v-for="link in links" :key="link" class="nav-link">{{link}}</a>
+
        </nav>
 </template>
 
@@ -12,6 +10,7 @@ export default {
     name: 'Nav',
     data () {
         return {
+            links: ["Home", "Contact", "Sign in", "Sign Up"],
             isSelected: false, 
         }
     }
