@@ -1,7 +1,6 @@
 <template>
        <nav id="nav-bar">
-           <a href='#' v-for="link in links" :key="link" class="nav-link">{{link}}</a>
-
+           <a href="#" v-for="link in links" :key="link" class="nav-link">{{ link }}</a>
        </nav>
 </template>
 
@@ -11,7 +10,7 @@ export default {
     data () {
         return {
             links: ["Home", "Contact", "Sign in", "Sign Up"],
-            isSelected: false, 
+            isSelected: false
         }
     }
 }
@@ -21,12 +20,13 @@ export default {
 
 #nav-bar {
     scroll-behavior: smooth;
-    padding-bottom: 1.5em;
-    margin-right: -60vw;  
+    padding-bottom: 1.5em; 
+    margin-right: -60vw; 
 }
 .nav-link {
     font-size: 1.5em; 
     display: inline; 
     padding:0 1em; 
+    color: #18a689;
 }
 </style>
