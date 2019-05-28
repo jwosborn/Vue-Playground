@@ -26,6 +26,5 @@ import Nav from './components/Nav.vue';
   text-align: center;
   background-color: #DDD;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
