@@ -2,6 +2,7 @@
   <div id="app">
     <Nav/>
     <HelloWorld msg="Hello, W0rld!" />
+    <Post />
   </div>
 </template>
 
@@ -11,11 +12,13 @@ export default {
   name: 'app',
   components: {
     HelloWorld,
-    Nav
+    Nav,
+    Post
   }
 }
 import HelloWorld from './components/HelloWorld.vue';
 import Nav from './components/Nav.vue';
+import Post from './components/Post.vue';
 </script>
 
 <style>
