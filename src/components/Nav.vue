@@ -9,7 +9,12 @@
 
 <script>
 export default {
-    name: 'Nav'
+    name: 'Nav',
+    data () {
+        return {
+            isSelected: false, 
+        }
+    }
 }
 </script>
 
