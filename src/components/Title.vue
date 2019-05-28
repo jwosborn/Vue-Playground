@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ msg }}</h1>
+    <h2>{{ msg }}</h2>
   </div>
 </template>
 
@@ -16,8 +16,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1 {
+h2 {
   margin: auto;
-  font-size: 56px; 
 }
 </style>

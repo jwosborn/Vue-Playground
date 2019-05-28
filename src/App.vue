@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Nav/>
+    <Header/>
     <Title msg="Blog Title" />
     <Post />
   </div>
@@ -13,12 +14,15 @@ export default {
   components: {
     Title,
     Nav,
-    Post
+    Post,
+    Header
   }
 }
 import Title from './components/Title.vue';
 import Nav from './components/Nav.vue';
 import Post from './components/Post.vue';
+import Header from './components/Header.vue';
+
 </script>
 
 <style>
