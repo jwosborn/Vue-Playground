@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Nav/>
-    <HelloWorld msg="Hello, World!" />
+    <Title msg="Hello, World!" />
     <Post />
   </div>
 </template>
@@ -11,12 +11,12 @@
 export default {
   name: 'app',
   components: {
-    HelloWorld,
+    Title,
     Nav,
     Post
   }
 }
-import HelloWorld from './components/HelloWorld.vue';
+import Title from './components/Title.vue';
 import Nav from './components/Nav.vue';
 import Post from './components/Post.vue';
 </script>
