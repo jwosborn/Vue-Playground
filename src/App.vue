@@ -2,7 +2,7 @@
   <div id="app">
     <Nav/>
     <Header/>
-    <Title msg="Blog Title" />
+    <Title msg="Post Title" />
     <Post />
   </div>
 </template>
