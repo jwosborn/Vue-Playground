@@ -4,6 +4,7 @@
     <Header/>
     <Title msg="Post Title" />
     <Post />
+    <Footer />
   </div>
 </template>
 
@@ -15,13 +16,15 @@ export default {
     Title,
     Nav,
     Post,
-    Header
+    Header,
+    Footer
   }
 }
 import Title from './components/Title.vue';
 import Nav from './components/Nav.vue';
 import Post from './components/Post.vue';
 import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
 
 </script>
 
