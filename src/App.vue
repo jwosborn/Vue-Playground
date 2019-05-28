@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Nav/>
-    <HelloWorld msg="Hello, W0rld!" />
+    <HelloWorld msg="Hello, World!" />
     <Post />
   </div>
 </template>
