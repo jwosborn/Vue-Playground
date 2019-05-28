@@ -12,10 +12,11 @@ export default {
 </script>
 <style>
     #logo {
-      margin: auto 5vw;    
+      margin: 0 5vw;    
     }
     h1 { 
         font-size: 56px;
+        margin-top: 0; 
         margin-left: 10vw; 
         padding-left: 4vw;  
     }
