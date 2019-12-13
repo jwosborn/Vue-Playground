@@ -9,10 +9,12 @@
   <div>
     <span>Gas Mileage Calculator</span>
     <div class="fuel">
-      <input name="fuel" type="text" :value="fuel"/>
-      <input name="miles" type="text" value="miles"/>
+      <label for="fuel">Fuel Used:</label>
+      <input name="fuel"   type="number" v-model="fuel" />
+      <label for="miles">Miles Driven:</label>
+      <input name="miles"  type="number" v-model="miles"/>
       <p>
-        Your gas mileage is {{ mileage }}.
+        Your gas mileage is {{ calculateMileage(fuel, miles)}}.
       </p>
     </div>
   </div>
@@ -27,11 +29,15 @@ export default {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       toggleBlock: false,
 count: 0,
-fuel: 0,
-miles: 0,
-mileage: this.miles/this.fuel,
+fuel: 10,
+miles: 300,
     };
-  },
+},
+methods: {
+calculateMileage (fuel, miles) {
+ return miles/fuel;
+},
+},
   name: "Post"
 };
 </script>
